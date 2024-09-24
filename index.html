@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .search-form {
+            width: 40%;
+            margin: 0 auto;
+        }
+
+        .search-form input[type="text"] {
+            width: 80%;
+            padding: 10px;
+        }
+
+        .search-form input[type="submit"] {
+            width: 15%;
+            padding: 10px;
+        }
+
+        .top-links {
+            text-align: right;
+        }
+
+        .top-links a {
+            color: #1A0DAB;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-links">
+        <a href="image_search.html">图片搜索</a> |
+        <a href="advanced_search.html">高级搜索</a>
+    </div>
+    <div class="search-form">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" placeholder="搜索Google...">
+            <input type="submit" value="Google 搜索">
+        </form>
+    </div>
+</body>
+
+</html>
